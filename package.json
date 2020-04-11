@@ -1,0 +1,12 @@
+{
+  "name": "jenkinsint",
+  "version": "1.0.0",
+  "description": "going To Project",
+  "scripts": {
+    "test": "newman run collection_jenkins_test.json -r cli,html"
+  },
+  "author": "pradeep",
+  "dependencies": {
+    "newman": "^5.0.0"
+  }
+}
